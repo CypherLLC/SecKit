@@ -16,28 +16,28 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SecKit",
-            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.5/SecKit.xcframework.zip",
-            checksum: "355304761376189fa452b698f1a2a8b49a5f870cc43bec0d78f69c158042d0c2"
+            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.6/SecKit.xcframework.zip",
+            checksum: "121d9ccdac3419607d9e3f5ef6de8c9fc771bda91ebb76000a4998ab0ab03bbb"
         ),
         .binaryTarget(
             name: "SecKitC",
-            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.5/SecKitC.xcframework.zip",
-            checksum: "044ad02d60dc515855fd8bc5d1095e70e61cc1bef733afefd13a38b289a158ed"
+            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.6/SecKitC.xcframework.zip",
+            checksum: "22152e46aaf5f547fa391489ceab49f82d23b930bace93e7740c33c5f9817550"
         ),
         .binaryTarget(
             name: "SecCryptoSwift",
-            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.5/SecCryptoSwift.xcframework.zip",
-            checksum: "f1d236dd196442ce4b000eb3ef903dc688ecf371cf2168b98682958dfb2b9db0"
+            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.6/SecCryptoSwift.xcframework.zip",
+            checksum: "1e1e7c4101f1c896abdab582982eb43240757e6e21e200663d910a3d2c56510c"
         ),
         .binaryTarget(
             name: "SecSwiftyRSA",
-            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.5/SecSwiftyRSA.xcframework.zip",
-            checksum: "8050d129584d262933b6c0828f439790cbbde859d0f4858ce0cdef60e0be0b83"
+            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.6/SecSwiftyRSA.xcframework.zip",
+            checksum: "d5d7dda9cbcee2661a1fc5f5208690ab10fa412733ec0b360d5ba0afb5c06811"
         ),
         .binaryTarget(
             name: "Alamofire",
-            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.5/Alamofire.xcframework.zip",
-            checksum: "4412756b810985a8b7a27687914baa3eaa943a28935600f0bae8dce902d9a64d"
+            url: "https://github.com/CypherLLC/SecKit/releases/download/1.0.6/Alamofire.xcframework.zip",
+            checksum: "4e0bcd3d48d0edaae46914838e3511ed5b1f09b7126c0657a7ab74c1a2dac879"
         ),
         .target(
             name: "SecKitOneSignalSupport",
