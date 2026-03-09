@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SecKit",
-            url: "https://github.com/CypherLLC/SecKit/releases/download/1.1.4/SecKit.xcframework.zip",
-            checksum: "423f3d766ea4088979d3e73df910b4a9f90c8a6798da1057de4718bf6108a6ec"
+            url: "https://github.com/CypherLLC/SecKit/releases/download/1.1.5/SecKit.xcframework.zip",
+            checksum: "276796c6aab921c7a1cb7d75a0c09f6a2f5c8e5f95aaba8ce794fef616537165"
         ),
         .target(
             name: "SecKitRuntimeDeps",
